@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex, More } from '@chia/core';
+import { Flex, More } from '@sesame/core';
 import { useSelector } from 'react-redux';
 import { Box, MenuItem, CircularProgress, ListItemIcon, Typography } from '@material-ui/core';
 import { Settings as SettingsIcon } from '@material-ui/icons';

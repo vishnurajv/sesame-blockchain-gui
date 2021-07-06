@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { Trans } from '@lingui/macro';
 import Grid from '@material-ui/core/Grid';
-import { AlertDialog, Flex, Card } from '@chia/core';
+import { AlertDialog, Flex, Card } from '@sesame/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -23,7 +23,7 @@ import {
   send_transaction,
   farm_block,
 } from '../../../modules/message';
-import { mojo_to_chia_string, chia_to_mojo } from '../../../util/chia';
+import { mojo_to_sesame_string, sesame_to_mojo } from '../../../util/sesame';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';
@@ -213,7 +213,7 @@ function BalanceCardSubSection(props: BalanceCardSubSectionProps) {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojo_to_chia_string(props.balance)} {currencyCode}
+            {mojo_to_sesame_string(props.balance)} {currencyCode}
           </Typography>
         </Box>
       </Box>
@@ -250,7 +250,7 @@ function BalanceCard(props: BalanceCardProps) {
         balance={balance}
         tooltip={
           <Trans>
-            This is the total amount of chia in the blockchain at the current
+            This is the total amount of sesame in the blockchain at the current
             peak sub block that is controlled by your private keys. It includes
             frozen farming rewards, but not pending incoming and outgoing
             transactions.
@@ -262,9 +262,9 @@ function BalanceCard(props: BalanceCardProps) {
         balance={balance_spendable}
         tooltip={
           <Trans>
-            This is the amount of Chia that you can currently use to make
+            This is the amount of Sesame that you can currently use to make
             transactions. It does not include pending farming rewards, pending
-            incoming transactions, and Chia that you have just spent but is not
+            incoming transactions, and Sesame that you have just spent but is not
             yet in the blockchain.
           </Trans>
         }
@@ -405,15 +405,15 @@ function SendCard(props: SendCardProps) {
       );
       return;
     }
-    const amount = chia_to_mojo(amount_input.value);
-    const fee = chia_to_mojo(fee_input.value);
+    const amount = sesame_to_mojo(amount_input.value);
+    const fee = sesame_to_mojo(fee_input.value);
 
     if (address.includes('colour')) {
       dispatch(
         openDialog(
           <AlertDialog>
             <Trans>
-              Error: Cannot send chia to coloured address. Please enter a chia
+              Error: Cannot send sesame to coloured address. Please enter a sesame
               address.
             </Trans>
           </AlertDialog>,
@@ -421,7 +421,7 @@ function SendCard(props: SendCardProps) {
       );
       return;
     }
-    if (address.slice(0, 12) === 'chia_addr://') {
+    if (address.slice(0, 12) === 'sesame_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {

@@ -6,21 +6,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: fi_FI\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: sesame-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-18 21:03\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: sesame-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: fi\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 72\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Haluatko tarkastella lohkoja? Katso avoimen koodin <0>Chia Explorer</0>."
+msgid "*Want to explore Sesame’s blocks further? Check out <0>Sesame Explorer</0> built by an open source developer."
+msgstr "Haluatko tarkastella lohkoja? Katso avoimen koodin <0>Sesame Explorer</0>."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -36,8 +36,8 @@ msgstr "Harvesteri on palvelu koneella, jolle plot-tiedostot on tallennettu. Far
 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
-msgid "About Chia Blockchain"
-msgstr "Tietoa Chia farmista"
+msgid "About Sesame Blockchain"
+msgstr "Tietoa Sesame farmista"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -187,8 +187,8 @@ msgid "Block VDF Iterations"
 msgstr "Lohkon VDF-iteraatiot"
 
 #: src/components/block/Block.jsx:311
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Lohko korkeudessa {0} Chian lohkoketjussa"
+msgid "Block at height {0} in the Sesame blockchain"
+msgstr "Lohko korkeudessa {0} Sesamen lohkoketjussa"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -268,16 +268,16 @@ msgid "Chat on KeyBase"
 msgstr "Keskustele KeyBasessa"
 
 #: src/electron/main.tsx:362
-msgid "Chia"
-msgstr "Chia"
+msgid "Sesame"
+msgstr "Sesame"
 
 #: src/electron/main.tsx:312
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Wiki"
+msgid "Sesame Blockchain Wiki"
+msgstr "Sesame Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "Chia Wallet"
-msgstr "Chia-lompakko"
+msgid "Sesame Wallet"
+msgstr "Sesame-lompakko"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -591,8 +591,8 @@ msgid "Edit"
 msgstr "Muokkaa"
 
 #: src/components/wallet/WalletImport.tsx:67
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Anna tallentamasi 24 muistisanaa palauttaaksesi Chia-lompakon."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Sesame wallet."
+msgstr "Anna tallentamasi 24 muistisanaa palauttaaksesi Sesame-lompakon."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -605,8 +605,8 @@ msgid "Error"
 msgstr "Virhe"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Virhe: Chioja ei voi lähettää värikolikko-osoitteeseen. Anna Chialompakon osoite."
+msgid "Error: Cannot send sesame to coloured address. Please enter a sesame address."
+msgstr "Virhe: Chioja ei voi lähettää värikolikko-osoitteeseen. Anna Sesamelompakon osoite."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1222,7 +1222,7 @@ msgid "Plots Passed Filter"
 msgstr "Plotteja Päässyt Filtteristä"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Sesame. <0>Learn more</0>"
 msgstr "Plotit ovat levyn tilavarauksia, joilla tuotetaan ja ansaitaan Chioja. <0>Katso lisää</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
@@ -1544,8 +1544,8 @@ msgstr "Käyttöajanjakson pituus (lohkojen määrä)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Käyttöraja (Chiaa/ajanjakso):{0}"
+msgid "Spending Limit (sesame per interval): {0}"
+msgstr "Käyttöraja (Sesamea/ajanjakso):{0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1592,8 +1592,8 @@ msgstr "Tila:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Sesame blockchain"
+#~ msgstr "Sub Block at height {0} in the Sesame blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:357
 msgid "Submit"
@@ -1697,7 +1697,7 @@ msgid "This feature is available only from the GUI."
 msgstr "Tämä ominaisuus käytettävissä ainoastaan graafisessa käyttöliittymässä."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Sesame that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Sesame that you have just spent but is not yet in the blockchain."
 msgstr "Transaktioihin käytettävissä oleva Chiojen määrä. Ei sisällä avoimia farmarin palkkioita, avoimia saapuvia transaktioita eikä lähetettyjä, mutta vahvistamattomia transaktioita."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
@@ -1717,7 +1717,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Ajankohta jolloin farmari on luonut lohkon. Aikatodiste viimeistelee lohkon tämän ajankohdan jälkeen"
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of sesame in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Yksityisten avaimiesi hallinoimien Chiojen kokonaissumma lohkoketjussa. Sisälytää jäädytetyt palkkiot, mutta ei tulevia tai lähteviä transaktioita."
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
@@ -1745,8 +1745,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Kauppa on sisällytetty lohkoketjuun tässä lohkokorkeudessa"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Tämä Chian versio ei ole enää yhteensopiva lohkoketjun kanssa."
+msgid "This version of Sesame is no longer compatible with the blockchain and can not safely farm."
+msgstr "Tämä Sesamen versio ei ole enää yhteensopiva lohkoketjun kanssa."
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"
@@ -1770,8 +1770,8 @@ msgstr "Osoitteeseen"
 msgid "Total Balance"
 msgstr "Kokonaissaldo"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:15
+#~ msgid "Total Sesame Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:192
@@ -1901,7 +1901,7 @@ msgstr "Odota synkroinointia"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.sesameWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -1934,7 +1934,7 @@ msgstr "Lompakot"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Sesame? Add more plots to your farm."
 msgstr "Haluatko ansaita Chioja? Lisää plot-tiedostoja farmiisi."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
@@ -1950,8 +1950,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Paino on kaikkien tähänastisten lohkojen vaikeuskerroin"
 
 #: src/components/selectKey/SelectKey.tsx:77
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Tervetuloa Chiaan. Kirjaudu sisään avaimella tai luo uusi avain."
+msgid "Welcome to Sesame. Please log in with an existing key, or create a new key."
+msgstr "Tervetuloa Sesamean. Kirjaudu sisään avaimella tai luo uusi avain."
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2000,8 +2000,8 @@ msgstr "Sinulla on {0}% verkossa olevasta tilasta, joten lohkon farmarointi vie 
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Sesame application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Sesame application as this version will stop working soon!"
 
 #: src/components/farm/overview/FarmOverview.tsx:24
 msgid "Your Farm Overview"
@@ -2064,8 +2064,8 @@ msgstr "synkronoi"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Lohkopalkkiot"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:17
+msgid "{currencyCode} Total Sesame Farmed"
 msgstr "{currencyCode} Chioja Farmaroitu"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17

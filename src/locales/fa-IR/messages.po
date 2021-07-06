@@ -6,21 +6,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: fa_IR\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: sesame-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-16 23:27\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: sesame-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: fa\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 72\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "آیا می خواهید که بلوک های چیـا را فراتر از این کاوش کنید؟ <0>Chia Explorer</0> را که توسط یک توسعه دهنده متن باز ساخته شده است را چک کنید."
+msgid "*Want to explore Sesame’s blocks further? Check out <0>Sesame Explorer</0> built by an open source developer."
+msgstr "آیا می خواهید که بلوک های چیـا را فراتر از این کاوش کنید؟ <0>Sesame Explorer</0> را که توسط یک توسعه دهنده متن باز ساخته شده است را چک کنید."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
-msgid "About Chia Blockchain"
+msgid "About Sesame Blockchain"
 msgstr "درباره بلاکچین چیـا"
 
 #: src/components/trading/ViewOffer.jsx:85
@@ -191,7 +191,7 @@ msgid "Block VDF Iterations"
 msgstr "تکرار VDF بلوک"
 
 #: src/components/block/Block.jsx:311
-msgid "Block at height {0} in the Chia blockchain"
+msgid "Block at height {0} in the Sesame blockchain"
 msgstr "بلوک در ارتفاع {0} در زنجیره بلوکی چیـا"
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -272,15 +272,15 @@ msgid "Chat on KeyBase"
 msgstr "در اپلیکیشن KeyBase صبحت کنید"
 
 #: src/electron/main.tsx:362
-msgid "Chia"
+msgid "Sesame"
 msgstr "چیـا"
 
 #: src/electron/main.tsx:312
-msgid "Chia Blockchain Wiki"
+msgid "Sesame Blockchain Wiki"
 msgstr "ویکی زنجیره بلوکی چیـا"
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "Chia Wallet"
+msgid "Sesame Wallet"
 msgstr "کیف پول چیـا"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
@@ -597,7 +597,7 @@ msgid "Edit"
 msgstr "ويرايش"
 
 #: src/components/wallet/WalletImport.tsx:67
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Sesame wallet."
 msgstr "برای بازگردانی کیف پول چیـای خود 24 کلمه یادآور خود را وارد کنید."
 
 #: src/components/farm/FarmerStatus.tsx:30
@@ -611,7 +611,7 @@ msgid "Error"
 msgstr "خطا"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+msgid "Error: Cannot send sesame to coloured address. Please enter a sesame address."
 msgstr "خطا: چیـا را به آدرس رنگی نمی‌توان ارسال کرد. لطفاً یک آدرس چیا وارد کنید."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
@@ -1230,7 +1230,7 @@ msgid "Plots Passed Filter"
 msgstr "پلات ها با موفقیت از فیلتر عبور کردند"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Sesame. <0>Learn more</0>"
 msgstr "پلات ها از فضای هارد شما جهت کشت و بدست آوردن چیا استفاده میکنند.<0> بیشتر بدانید<0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
@@ -1552,7 +1552,7 @@ msgstr "مدت فاصله خرج کردن (تعداد بلوک ها)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (sesame per interval): {0}"
 msgstr "محدودیت خرج کردن (چیـا بر فاصله): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
@@ -1600,8 +1600,8 @@ msgstr "وضعیت:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Sesame blockchain"
+#~ msgstr "Sub Block at height {0} in the Sesame blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:357
 msgid "Submit"
@@ -1705,7 +1705,7 @@ msgid "This feature is available only from the GUI."
 msgstr "این ویژگی تنها در نسخه داری واسط گرافیکی در دسترس است."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Sesame that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Sesame that you have just spent but is not yet in the blockchain."
 msgstr "این مقدار چیـایی است که در حال حاضر می‌توانید برای انجام تراکنش ها استفاده کنید. این مقدار شامل پاداش معوق مزرعه ، معاملات ورودی معلق و مقدار چیـایی اخیراً هزینه کرده‌اید اما هنوز در زنجیره بلوکی نیستند نمی‌باشد."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
@@ -1727,7 +1727,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "این مدت زمان صرف شده برای ساخت بلوک توسط مزرعه دار است،که قبلا با توجه به زمان سپری شده به انتها رسیده است"
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of sesame in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "این مقدار کل چیـا در زنجیره بلوکی در نقطه حداکثر زیر بلوک کنونی است که توسط کلیدهای شخصی شما کنترل می‌شود. این شامل پاداش های معلق و گیر کرده مزرعه داری می‌شود، اما شامل تراکنش های درحال ورود و خروجی که در آماده برای انجام هستند نمی‌شود."
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
@@ -1757,7 +1757,7 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "این معامله در این ارتفاع بلوکی شامل زنجیره بلوکی شده است‌"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Sesame is no longer compatible with the blockchain and can not safely farm."
 msgstr "این ورژن از چیـا دیگر با با شبکه بلوکی سازگاری ندارد و نمی‌تواند با امنیت به مزرعه داری بپردازد."
 
 #: src/components/fullNode/FullNode.jsx:87
@@ -1782,8 +1782,8 @@ msgstr "به"
 msgid "Total Balance"
 msgstr "موجودی کل"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:15
+#~ msgid "Total Sesame Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:192
@@ -1913,7 +1913,7 @@ msgstr "در انتظار همگام سازی"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.sesameWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -1946,7 +1946,7 @@ msgstr "کیف پول ها"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Sesame? Add more plots to your farm."
 msgstr "آیا می خواهید چیـا بیشتری بدست آورید؟ پلات های بیشتری را به مزرعه خود اضافه کنید."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
@@ -1962,7 +1962,7 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "وزن همان مجموع سختی اضاف شده به تمامی زیر بلوک ها از جمله همین یکی است"
 
 #: src/components/selectKey/SelectKey.tsx:77
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Sesame. Please log in with an existing key, or create a new key."
 msgstr "به چیـا خوش آمدید. لطفا با کلیدی که از قبل دارید وارد شوید، یا کلیدی جدید بسازید."
 
 #: src/components/wallet/WalletAdd.tsx:35
@@ -2016,8 +2016,8 @@ msgstr ""
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Sesame application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Sesame application as this version will stop working soon!"
 
 #: src/components/farm/overview/FarmOverview.tsx:24
 msgid "Your Farm Overview"
@@ -2080,8 +2080,8 @@ msgstr "در حال همگام سازی"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} جایزه بلوک"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:17
+msgid "{currencyCode} Total Sesame Farmed"
 msgstr "{currencyCode} مجموع چیـا برداشت شده"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17

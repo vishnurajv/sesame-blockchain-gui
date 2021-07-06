@@ -13,14 +13,14 @@ global.key_path = 'config/ssl/daemon/private_daemon.key';
 function loadConfig(version) {
   try {
     // finding the right config file uses this precedence
-    // 1) CHIA_ROOT environment variable
-    // 2) version passed in and determined by the `chia version` call
+    // 1) SESAME_ROOT environment variable
+    // 2) version passed in and determined by the `sesame version` call
 
-    // check if CHIA_ROOT is set. it overrides everything else
+    // check if SESAME_ROOT is set. it overrides everything else
     const config_root_dir =
-      'CHIA_ROOT' in process.env
-        ? process.env.CHIA_ROOT
-        : path.join(os.homedir(), '.chia', version);
+      'SESAME_ROOT' in process.env
+        ? process.env.SESAME_ROOT
+        : path.join(os.homedir(), '.sesame', version);
     const config = yaml.load(
       fs.readFileSync(path.join(config_root_dir, 'config/config.yaml'), 'utf8'),
     );

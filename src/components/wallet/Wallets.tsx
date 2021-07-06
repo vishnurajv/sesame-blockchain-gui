@@ -12,7 +12,7 @@ import {
 } from '@material-ui/core';
 import { Route, Switch, useRouteMatch, useHistory } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
-import { Flex, FormatLargeNumber } from '@chia/core';
+import { Flex, FormatLargeNumber } from '@sesame/core';
 import StandardWallet from './standard/WalletStandard';
 import {
   changeWalletMenu,
@@ -53,8 +53,8 @@ const WalletItem = (props: any) => {
 
   let mainLabel = <></>;
   if (wallet.type === WalletType.STANDARD_WALLET) {
-    mainLabel = <Trans>Chia Wallet</Trans>;
-    name = 'Chia';
+    mainLabel = <Trans>Sesame Wallet</Trans>;
+    name = 'Sesame';
   } else if (wallet.type === WalletType.COLOURED_COIN) {
     mainLabel = <Trans>CC Wallet</Trans>;
     if (name.length > 18) {

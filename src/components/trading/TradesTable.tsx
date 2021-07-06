@@ -1,9 +1,9 @@
 import React, { useMemo, ReactNode } from 'react';
-import { Table } from '@chia/core';
+import { Table } from '@sesame/core';
 import styled from 'styled-components';
 import { Trans } from '@lingui/macro';
 import { Box } from '@material-ui/core';
-import { mojo_to_chia_string } from '../../util/chia';
+import { mojo_to_sesame_string } from '../../util/sesame';
 
 const Amount = styled(Box)`
   white-space: normal;
@@ -48,7 +48,7 @@ export default function TradesTable(props: Props) {
       ),
       amount: (
         <Amount>
-          {mojo_to_chia_string(humanAmount)}
+          {mojo_to_sesame_string(humanAmount)}
         </Amount>
       ),
     };

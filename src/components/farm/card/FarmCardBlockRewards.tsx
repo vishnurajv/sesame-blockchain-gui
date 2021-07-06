@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import type { RootState } from '../../../modules/rootReducer';
 import FarmCard from './FarmCard';
-import { mojo_to_chia } from '../../../util/chia';
+import { mojo_to_sesame } from '../../../util/sesame';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
 
 export default function FarmCardBlockRewards() {
@@ -23,7 +23,7 @@ export default function FarmCardBlockRewards() {
   const blockRewards = useMemo(() => {
     if (farmerRewardAmount !== undefined && poolRewardAmount !== undefined) {
       const val = BigInt(farmerRewardAmount.toString()) + BigInt(poolRewardAmount.toString());
-      return mojo_to_chia(val);
+      return mojo_to_sesame(val);
     }
   }, [farmerRewardAmount, poolRewardAmount]);
 

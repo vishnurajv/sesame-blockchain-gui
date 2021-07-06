@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog } from '@chia/core';
+import { AlertDialog } from '@sesame/core';
 import {
   Typography,
   Button,
@@ -20,7 +20,7 @@ import {
 } from '../../../modules/createWallet';
 import { useStyles } from './WalletCreate';
 import { create_cc_action } from '../../../modules/message';
-import { chia_to_mojo } from '../../../util/chia';
+import { sesame_to_mojo } from '../../../util/sesame';
 import { openDialog } from '../../../modules/dialog';
 
 export const customStyles = makeStyles((theme) => ({
@@ -87,8 +87,8 @@ export const CreateNewCCWallet = () => {
       return;
     }
     dispatch(createState(true, true));
-    const amount = chia_to_mojo(amount_input.value);
-    const fee = chia_to_mojo(fee_input.value);
+    const amount = sesame_to_mojo(amount_input.value);
+    const fee = sesame_to_mojo(fee_input.value);
     dispatch(create_cc_action(amount, fee));
   }
 

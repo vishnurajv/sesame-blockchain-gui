@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useSelector, useDispatch } from 'react-redux';
 import styled from 'styled-components';
-import { ConfirmDialog, Flex, Button, Link, Logo } from '@chia/core';
+import { ConfirmDialog, Flex, Button, Link, Logo } from '@sesame/core';
 import {
   Card,
   Typography,
@@ -113,7 +113,7 @@ export default function SelectKey() {
               </Typography>
               <Typography variant="subtitle1">
                 <Trans>
-                  Welcome to Chia. Please log in with an existing key, or create
+                  Welcome to Sesame. Please log in with an existing key, or create
                   a new key.
                 </Trans>
               </Typography>

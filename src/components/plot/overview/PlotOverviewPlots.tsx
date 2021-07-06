@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import styled from 'styled-components';
 import { Warning as WarningIcon } from '@material-ui/icons';
-import { Card, Flex, Table, FormatBytes, StateColor } from '@chia/core';
+import { Card, Flex, Table, FormatBytes, StateColor } from '@sesame/core';
 import {
   Box,
   Typography,
@@ -105,7 +105,7 @@ export default function PlotOverviewPlots() {
           <Flex flexGrow={1}>
             <Typography variant="body2">
               <Trans>
-                Want to earn more Chia? Add more plots to your farm.
+                Want to earn more Sesame? Add more plots to your farm.
               </Trans>
             </Typography>
           </Flex>

@@ -9,8 +9,8 @@ import {
   Keys as KeysIcon,
   Home as HomeIcon,
   Plot as PlotIcon,
-} from '@chia/icons';
-import { Flex, SideBarItem } from '@chia/core';
+} from '@sesame/icons';
+import { Flex, SideBarItem } from '@sesame/core';
 import { logOut } from '../../modules/message';
 
 const StyledRoot = styled(Flex)`
