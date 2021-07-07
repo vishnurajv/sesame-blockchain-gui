@@ -112,14 +112,14 @@ describe("units", () => {
     });
     it("updates an existing display", () => {
       units.setDisplay("sesame", {
-        format: "{amount} TXCH",
+        format: "{amount} TXSM",
         fractionDigits: 0
       });
 
       const result = units.getDisplay("sesame");
 
       expect(result).toEqual({
-        format: "{amount} TXCH",
+        format: "{amount} TXSM",
         fractionDigits: 0
       });
     });
