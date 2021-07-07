@@ -38,7 +38,6 @@ export default function LayoutHero(props: Props) {
           {header}
           <Flex flexGrow={1} />
           <LocaleToggle locales={locales} defaultLocale={defaultLocale} />
-          <DarkModeToggle />
         </Toolbar>
       </AppBar>
       <StyledBody>
