@@ -267,18 +267,6 @@ msgstr "挑戰雜湊值"
 msgid "Chat on KeyBase"
 msgstr "在 KeyBase 上閒聊"
 
-#: src/electron/main.tsx:362
-msgid "Sesame"
-msgstr "Sesame"
-
-#: src/electron/main.tsx:312
-msgid "Sesame Blockchain Wiki"
-msgstr "Sesame 區塊鏈維基"
-
-#: src/components/wallet/Wallets.tsx:32
-msgid "Sesame Wallet"
-msgstr "Sesame 錢包"
-
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
 msgstr "選擇耕地數量"
@@ -1486,6 +1474,18 @@ msgstr "發送這個資訊封包給你必須需要完成設定他們錢包的速
 msgid "Send your pubkey to your Rate Limited Wallet admin:"
 msgstr "發送你的公鑰到你的速率限制錢包管理員："
 
+#: src/electron/main.tsx:362
+msgid "Sesame"
+msgstr "Sesame"
+
+#: src/electron/main.tsx:312
+msgid "Sesame Blockchain Wiki"
+msgstr "Sesame 區塊鏈維基"
+
+#: src/components/wallet/Wallets.tsx:32
+msgid "Sesame Wallet"
+msgstr "Sesame 錢包"
+
 #: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:40
 msgid "Show Advanced Options"
 msgstr "顯示進階選項"
@@ -1770,10 +1770,6 @@ msgstr "到"
 msgid "Total Balance"
 msgstr "總餘額"
 
-#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:15
-#~ msgid "Total Sesame Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/FullNode.jsx:192
 msgid "Total Iterations"
 msgstr "總疊代次數"
@@ -1785,6 +1781,10 @@ msgstr "總網路空間"
 #: src/components/plot/overview/PlotOverviewPlots.tsx:91
 msgid "Total Plot Size:"
 msgstr "總耕地大小："
+
+#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:15
+#~ msgid "Total Sesame Farmed"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:8
 msgid "Total Size of Plots"
@@ -1900,16 +1900,16 @@ msgstr "等待同步中"
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.sesameWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.sesameWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107

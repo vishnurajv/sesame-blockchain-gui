@@ -267,18 +267,6 @@ msgstr "도전 해시"
 msgid "Chat on KeyBase"
 msgstr "키베이스에서 채팅하기"
 
-#: src/electron/main.tsx:362
-msgid "Sesame"
-msgstr "치아"
-
-#: src/electron/main.tsx:312
-msgid "Sesame Blockchain Wiki"
-msgstr "치아 블록체인 위키"
-
-#: src/components/wallet/Wallets.tsx:32
-msgid "Sesame Wallet"
-msgstr "치아 지갑"
-
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
 msgstr "몇 개의 플롯을 만들까요?"
@@ -1486,6 +1474,18 @@ msgstr "이 정보 패킷을 Rate Limited Wallet 사용자에게 보냅니다. �
 msgid "Send your pubkey to your Rate Limited Wallet admin:"
 msgstr "이 정보 패킷을 비율 제한 지갑 사용자에게 보냅니다. 이 사용자는 이를 사용하여 지갑 설정을 완료해야합니다."
 
+#: src/electron/main.tsx:362
+msgid "Sesame"
+msgstr "치아"
+
+#: src/electron/main.tsx:312
+msgid "Sesame Blockchain Wiki"
+msgstr "치아 블록체인 위키"
+
+#: src/components/wallet/Wallets.tsx:32
+msgid "Sesame Wallet"
+msgstr "치아 지갑"
+
 #: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:40
 msgid "Show Advanced Options"
 msgstr "고급 옵션 표시"
@@ -1770,10 +1770,6 @@ msgstr "수신"
 msgid "Total Balance"
 msgstr "총 잔고"
 
-#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:15
-#~ msgid "Total Sesame Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/FullNode.jsx:192
 msgid "Total Iterations"
 msgstr "총 반복"
@@ -1785,6 +1781,10 @@ msgstr "총 네트워크 공간"
 #: src/components/plot/overview/PlotOverviewPlots.tsx:91
 msgid "Total Plot Size:"
 msgstr "총 구성 크기:"
+
+#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:15
+#~ msgid "Total Sesame Farmed"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:8
 msgid "Total Size of Plots"
@@ -1900,16 +1900,16 @@ msgstr "동기화 대기 중"
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.sesameWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.sesameWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107

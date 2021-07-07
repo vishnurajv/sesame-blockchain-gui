@@ -267,18 +267,6 @@ msgstr "Challenge Hash"
 msgid "Chat on KeyBase"
 msgstr "Hubung Chat di KeyBase"
 
-#: src/electron/main.tsx:362
-msgid "Sesame"
-msgstr "Sesame"
-
-#: src/electron/main.tsx:312
-msgid "Sesame Blockchain Wiki"
-msgstr "Wiki Sesame Blockchain"
-
-#: src/components/wallet/Wallets.tsx:32
-msgid "Sesame Wallet"
-msgstr "Wallet Sesame"
-
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
 msgstr "Pilih Jumlah Plot"
@@ -1488,6 +1476,18 @@ msgstr "Kirim info paket ke Dompet Pengguna Hak Terbatas yang harus digunakan un
 msgid "Send your pubkey to your Rate Limited Wallet admin:"
 msgstr "Kirim pubkey anda ke admin Dompet Hak Terbatas:"
 
+#: src/electron/main.tsx:362
+msgid "Sesame"
+msgstr "Sesame"
+
+#: src/electron/main.tsx:312
+msgid "Sesame Blockchain Wiki"
+msgstr "Wiki Sesame Blockchain"
+
+#: src/components/wallet/Wallets.tsx:32
+msgid "Sesame Wallet"
+msgstr "Wallet Sesame"
+
 #: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:40
 msgid "Show Advanced Options"
 msgstr "Lihat opsi lanjutan"
@@ -1772,10 +1772,6 @@ msgstr "Ke"
 msgid "Total Balance"
 msgstr "Jumlah Saldo"
 
-#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:15
-#~ msgid "Total Sesame Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/FullNode.jsx:192
 msgid "Total Iterations"
 msgstr "Jumlah iterasi"
@@ -1787,6 +1783,10 @@ msgstr "Jumlah Jarak Rangkaian"
 #: src/components/plot/overview/PlotOverviewPlots.tsx:91
 msgid "Total Plot Size:"
 msgstr "Jumlah Ukuran Plot:"
+
+#: src/components/farm/card/FarmCardTotalSesameFarmed.tsx:15
+#~ msgid "Total Sesame Farmed"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:8
 msgid "Total Size of Plots"
@@ -1902,16 +1902,16 @@ msgstr "Menunggu sikronisasi"
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.sesameWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.sesameWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107
