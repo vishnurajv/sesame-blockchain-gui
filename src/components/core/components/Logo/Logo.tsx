@@ -4,7 +4,7 @@ import { Box, BoxProps } from '@material-ui/core';
 import { Sesame } from '@sesame/icons';
 
 const StyledSesame = styled(Sesame)`
-  max-width: 100%;
+  max-width: 50%;
   width: auto;
   height: auto;
 `;
