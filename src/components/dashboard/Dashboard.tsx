@@ -67,12 +67,11 @@ export default function Dashboard() {
           <DashboardTitleTarget />
           <Flex flexGrow={1} />
           <LocaleToggle locales={locales} defaultLocale={defaultLocale} />
-          <DarkModeToggle />
         </Toolbar>
       </StyledAppBar>
       <StyledDrawer variant="permanent">
         <StyledBrandWrapper>
-          <Logo width={2 / 3} />
+          <Logo width={114} />
         </StyledBrandWrapper>
         <Divider />
         <DashboardSideBar />
